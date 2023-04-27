@@ -1,0 +1,172 @@
+/* First Image */
+.containerAme{
+    background-color: #eeeeee;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    overflow: hidden;
+    flex-direction:row;
+    /* flex-wrap: wrap ; */
+    /* justify-content:left; */
+
+}
+
+
+
+.imgAme{
+    top: 5px;
+    padding-bottom: 30px;
+    /* width: 95%;  */
+    height: 600px;
+     /* min-height: 900px; */
+    max-height: 300px; 
+    /* max-width: 500px;  */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.txtAme{
+    top: 10%;
+    margin: 10px;
+    height: auto;
+    width: 70%;
+    /* max-width: 450px; */
+    color: #6b6b6b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-indent: 20px;
+    word-spacing: 6px;
+    line-height: 1.8;
+}
+.txtAme button{
+    width: 110px;
+  height: 40px;
+  background-color: rgb(0, 158, 97);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+}
+
+.txtAme h1{
+    padding-top: 40px;
+    color: #000;
+}
+.txtAme p{
+    top: 30px;
+}
+
+@media(max-width: 922px){
+    .containerAme{
+        background-color: #eeeeee;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        overflow: hidden;
+        flex-direction:column-reverse
+        /* flex-wrap: wrap ; */
+        /* justify-content:left; */
+    
+    }
+    
+    .imgAme img{
+        top: 10px;
+        /* width: 100%; */
+        height: 800px;
+        min-height: 100px;
+        /* max-width: 500px; */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .txtAme{
+        padding: 50px;
+        height: auto;
+        width: 100%;
+        /* max-width: 450px; */
+        color: #6b6b6b;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+}
+
+
+/* Container Box */
+.containerBAme {
+    background-color: #ffffff;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      overflow: hidden;
+      flex-direction: row;
+      flex-wrap: wrap ;
+      justify-content: center;
+      /* border-bottom: 0.8px solid rgb(126, 123, 123); */
+      
+  }
+
+  .box{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .box img{
+    height: 180px;
+    width: 230px;
+  }
+  .box h2{
+    margin-top: 50px;
+    /* left: 40px;
+    height: 20px;
+    width: 40px; */
+  }
+  .box p{
+    padding: 30px;
+    color: #6b6b6b;
+    font-size: 14px;
+    text-indent: 20px;
+    word-spacing: 1px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .sop{
+    margin-left: 27%;
+    margin-top: 40px;
+    margin-bottom:  40px;
+  }
+
+  /* img foot */
+  .hero-image2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/33cfb02a-%E7%A7%81%E4%BA%BA%E5%AF%BC%E8%A7%88%E6%B5%B7%E4%B8%8A%E8%B7%B3%E5%B2%9B%E6%B8%B8/Boracay%20Tour%20Package%20(Island%20Hopping).jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text2 {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }

@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="styleBook.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+</head>
+<body>
+    <header  style="background-color: rgb(11, 71, 71);">
+        <nav class="navbar">
+            <div class="logo"><a href="#">Sunny Skies Beach Resort</a> </div>
+            <ul class="links">
+                <li><a href="index.html" style="color: #ffffff;">Home</a></li>
+                <li><a href="Room.html" style="color: #ffffff;">Rooms & Rates</a></li>
+                <li><a href="Amenities.html" style="color: #ffffff;">Amenities</a></li>
+                <li><a href="Location.html" style="color: #ffffff;">Location</a></li>
+                <li><a href="Contact.html" style="color: #ffffff;">Contact</a></li>
+            </ul>
+            <div class="toggle_btn">
+                <i style="color: #ffffff;">|||</i>
+            </div>
+        </nav>
+
+        <div class="dropdown_menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Room.html">Rooms & Rates</a></li>
+            <li><a href="Amenities.html">Amenities</a></li>
+            <li><a href="Location.html">Location</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </div>
+    </header>
+
+    <main style="background-color: #ddd;">
+        
+        <div class="Cover">
+            <div class="set">
+                <label class="lbl">Check-in</label><br>
+                <input type="date" class="inp"> 
+            </div>
+            <div class="set">
+                <label class="lbl">Check-out</label><br>
+                <input type="date" class="inp"> 
+            </div>
+            <div class="set">
+                <label class="lbl">Promo code</label><br>
+                <input type="text" class="inp"> 
+            </div>
+            <div class="set">
+                <button class="button">SEARCH</button>
+            </div>
+        </div>
+
+
+        <div class="tab">
+            <button class="tablinks" onclick="openCity(event, 'London')">CHOOSE A ROOM</button>
+            <button class="tablinks" onclick="openCity(event, 'Paris')">CHECK OUT</button>
+        </div>
+
+        <div id="London" class="tabcontent">
+
+            <div class="tabAB">
+                <div class="tabset">
+                    <img  src="https://cdn1.clickthecity.com/wp-content/uploads/2021/02/23150803/True-Home-1024x576.jpg">
+                    <div class="tabseta">
+                        <div class="tabsetaa">
+                            <h3>Deluxe Twin</h3>
+                            <div style="float: right; background-color: black; color: #ffffff; padding: 10px; font-size: 12px; margin-right: -5px;">only 1 left</div>
+                        </div><br>
+
+                        <div class="tabsetab">
+                            <div>
+                                <p>Maximum Occupancy</p>
+                                <p>2</p>
+                            </div>
+                            <div style="margin-left: 13%;">
+                                <p>Minimum Stay</p>
+                                <p>1 Night(s)</p>
+                            </div>
+                        </div>
+
+
+                        <div class="tabsetac">
+                            <label><input type="radio" /> Standard Rate</label>
+                            <div style="float: right;  color: #000000; padding: 10px; font-size: 12px;">
+                                <p>Price for1Night(s)</p>
+                                <h2>₱5,000.00</h2>
+                            </div>
+                        </div>
+
+                        <div class="tabsetad">
+                            <label>See Details</label>
+                            <div style="float: right;  color: #000000; padding: 10px; font-size: 12px; ">
+                                <div class="act1">
+                                    <fieldset style="border: none;">
+                                        <label>Adults</label> <label>Children</label> <label>Rooms</label><br>
+                                        <select name = "Number" >
+                                            <option value="Mahogany">0</option>
+                                            <option value="Maplewood">1</option>
+                                            <option value="Cherry">2</option>
+                                        </select>
+                                        <select name = "Number">
+                                            <option value="Mahogany">0</option>
+                                            <option value="Maplewood">1</option>
+                                            <option value="Cherry">2</option>
+                                        </select>
+                                        <select name = "Number">
+                                            <option value="Mahogany">0</option>
+                                            <option value="Maplewood">1</option>
+                                            <option value="Cherry">2</option>
+                                        </select>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabset">
+                    <img  src="https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2017/5/12/0/FOD17_Katherine-Carter-Design_Malibu_18.jpg.rend.hgtvcom.966.644.suffix/1494592313150.jpeg">
+                    <div class="tabseta">
+                        <div class="tabsetaa">
+                            <h3>Deluxe Queen Twin</h3>
+                            <div style="float: right; background-color: black; color: #ffffff; padding: 10px; font-size: 12px; margin-right: -5px;">only 3 left</div>
+                        </div><br>
+
+                        <div class="tabsetab">
+                            <div>
+                                <p>Maximum Occupancy</p>
+                                <p>4</p>
+                            </div>
+                            <div style="margin-left: 13%;">
+                                <p>Minimum Stay</p>
+                                <p>3 Night(s)</p>
+                            </div>
+                        </div>
+
+
+                        <div class="tabsetac">
+                            <label><input type="radio" /> Standard Rate</label>
+                            <div style="float: right;  color: #000000; padding: 10px; font-size: 12px;">
+                                <p>Price for1Night(s)</p>
+                                <h2>₱8,000.00</h2>
+                            </div>
+                        </div>
+
+                        <div class="tabsetad">
+                            <label>See Details</label>
+                            <div style="float: right;  color: #000000; padding: 10px; font-size: 12px; ">
+                                <div class="act1">
+                                    <fieldset style="border: none;">
+                                        <label>Adults</label> <label>Children</label> <label>Rooms</label><br>
+                                        <select name = "Number" >
+                                            <option value="Mahogany">0</option>
+                                            <option value="Maplewood">1</option>
+                                            <option value="Cherry">2</option>
+                                        </select>
+                                        <select name = "Number">
+                                            <option value="Mahogany">0</option>
+                                            <option value="Maplewood">1</option>
+                                            <option value="Cherry">2</option>
+                                        </select>
+                                        <select name = "Number">
+                                            <option value="Mahogany">0</option>
+                                            <option value="Maplewood">1</option>
+                                            <option value="Cherry">2</option>
+                                        </select>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                
+            
+            </div>
+                <!-- Button to "Book Now" -->
+            <div class="tabsetBTN">
+                <button>Book Now</button>
+                <a href="#"><u>Have a promo code?</u></a>
+            </div>
+
+        </div>
+          
+        <div id="Paris" class="tabcontent">
+            <div class="act2">
+                <div class="box">
+                    <h2>CONTACT IFORMATION</h2>
+                    <div class="box2nd">
+                        <h3><a style="color: rgb(255, 0, 51);">* </a>First name</h3><h3 style="padding-left: 120px;"><a style="color: rgb(255, 0, 51);">* </a>Last name</h3>
+                    </div>
+                    <div class="box2nd">
+                        <input type="text" style="width: 40%px; height: 40px; margin-top: 10px;"><input type="text" style="margin-left: 42px; width: 30%; height: 40px; margin-top: 10px;">
+                    </div>
+
+                    <div class="box2nd">
+                        <h3><a style="color: rgb(255, 0, 51);">* </a>Email</h3><h3 style="padding-left: 150px;"><a style="color: rgb(255, 0, 51);">* </a>Phone</h3>
+                    </div>
+                    <div class="box2nd">
+                        <input type="text" style="width: 40%px; height: 40px; margin-top: 10px;"><input type="text" style="margin-left: 42px; width: 40%; height: 40px; margin-top: 10px;">
+                    </div>
+
+                    <div class="box2nd">
+                            <select name = "Country" >
+                                <option value="Mahogany"><a style="color: rgb(255, 0, 51);">* </a>Select Your Country</option>
+                                <option value="Maplewood">Philippine</option>
+                                <option value="Cherry">USA</option>
+                                <option value="Cherry">Japan</option>
+                                <option value="Cherry">China</option>
+                            </select>
+                    </div>
+
+                    <div class="box2nd">
+                        <h3><a style="color: rgb(255, 0, 51);">* </a>Comparison</h3>
+                    </div>
+                    <div class="box2nd">
+                        <textarea name="" id="" cols="30" rows="10" style="width: 80%; max-width: 80%; min-width: 80%; height: 70px; margin-top: 10px; float: left; margin-left: 10px; box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+                        border: none;"></textarea>
+                    </div>
+                    
+                    <div class="box2nd">
+                        <h2>ADITIONAL GUESTS</h2>
+                    </div>
+                    <button style="float:left; margin-left: 10px; margin-top: 30px; width: 110px;
+                    height: 32px;
+                    background-color: rgb(0, 158, 97);
+                    color: #ffffff;
+                    border: none;
+                    border-radius: 10px;box-shadow: 0 3px 10px rgba(4, 168, 12, 0.2); margin-bottom: 20px;">ADD GUEST</button>
+                    
+                    <div class="box2nd">
+                        <h2>PAYMENT METHOD</h2>
+                    </div>
+                    <div class="box2nd" style="margin-bottom: 15px;">
+                        <label><input type="radio" name="select" />    PayPal</label>
+                    </div>
+                    <div class="box2nd" style="margin-bottom: 50px;">
+                        <label><input type="radio" name="select" />    Banking</label>
+                    </div>
+                    
+            </div>
+            </div>
+
+
+            <div class="act2_2">
+                    <div class="boxA">
+                        <h2>Your Reservation</h2>
+                        <br>
+                       
+                        <div class="box" style="background-color:  #e0e0e0; border-bottom: 2px solid gray;">
+                            <p><b>Room Selections:</b><br><br> Deluxe Twin (1x) <br>  <b>Adults: 1 Children: 3</b></p>
+                            <p><b>Arrival Date:</b><br><br> 04/27/2023</p>
+                            <p><b>Departure Date:</b><br><br> 04/30/2023</p>
+                             <p><b>Room Nights:</b><br><br> 3</p>
+                        </div>
+
+                        <div class="pay">
+                            <div class="payit">
+                                <p>Room Total:</p> <p>PHP</p> 
+                            </div>
+                            <div class="payit">
+                                <p>  </p> <p>5,000.00</p> 
+                            </div>
+                            <div class="payit">
+                                <p>Extra Adults (x0):</p> <p>PHP 0.00</p> 
+                            </div>
+                            <div class="payit">
+                                <p>Extra Child(ren) (x2):</p> <p>PHP 0.00</p> 
+                            </div>
+                            <div class="payit">
+                                <p> </p> <p> </p> 
+                            </div>
+                            <div class="payit">
+                                <p>Total Taxes:</p> <p>PHP 600.00</p> 
+                            </div>
+                            <div class="payit">
+                                <p>Total Fees:</p> <p>PHP 250.00</p> 
+                            </div>
+                            <div class="payit">
+                                <p> </p> <p> </p> 
+                            </div>
+                            <div class="payit">
+                                <p>Grand Total:</p> <p>PHP</p> 
+                            </div>
+                            <div class="payit">
+                                <p> </p> <p>PHP 5,850.00</p> 
+                            </div>
+                        </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script>
+        function openCity(evt, cityName) {
+          var i, tabcontent, tablinks;
+          tabcontent = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+          }
+          tablinks = document.getElementsByClassName("tablinks");
+          for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+          }
+          document.getElementById(cityName).style.display = "flex";
+          evt.currentTarget.className += " active";
+        }
+        </script>
+        <script>
+            const toggleBtn = document.querySelector('.toggle_btn')
+            const toggleBtnIcon = document.querySelector('.toggle_btn i')
+            const dropDownMenu = document.querySelector('.dropdown_menu')
+    
+            toggleBtn.onclick = function () {
+                dropDownMenu.classList.toggle('open')
+                const isOpen = dropDownMenu.classList.contains('open')
+    
+                toggleBtnIcon.classList = isOpen
+                ? 'fa-solid fa-xmark'
+                : 'fa-solid fa-bars'
+            }
+        </script>
+</body>
+</html>

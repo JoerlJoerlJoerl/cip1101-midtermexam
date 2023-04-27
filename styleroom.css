@@ -1,0 +1,239 @@
+
+
+  /* MAIN */
+
+  .hero-image2 {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://lirp.cdn-website.com/e3037ba3/dms3rep/multi/opt/HueHotelsBoracay-Deluxe002-640w.jpg");
+  
+    /* Set a specific height */
+    height: 500px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text2{
+    font-size: 25px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
+
+/* First Image Room */
+
+/* 1st and 2nd container */
+  .containerroom{
+    background-color: #ffffff;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    overflow: hidden;
+    flex-direction:row;
+    /* flex-wrap: wrap ; */
+    /* justify-content:left; */
+
+}
+.containerroom2{
+  background-color: #ffffff;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  overflow: hidden;
+  flex-direction:row-reverse;
+  /* flex-wrap: wrap ; */
+  /* justify-content:left; */
+
+}
+/* End of 1st and 2nd container */
+
+.imgroom{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 95%;
+    height: 80%;
+    max-width: 800px;
+    max-height: 800px;
+    min-width: 400px;
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.txtroom{
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 60px;
+    margin: 20px;
+    height: auto;
+    width: 70%;
+    max-width: 700px;
+    max-height: 700px;
+    color: #6b6b6b;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-indent: 20px;
+    word-spacing: 6px;
+    line-height: 1.8;
+}
+/* 1st and 2nd Button */
+.containerroom button{
+  width: 110px;
+  height: 40px;
+  background-color: rgb(0, 158, 97);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+.containerroom2 button{
+  width: 110px;
+  height: 40px;
+  background-color: rgb(0, 158, 97);
+  color: #ffffff;
+  border: none;
+  border-radius: 10px;
+
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: scale 0.2 ease;
+}
+/* End of 1st and 2nd Button */
+
+@media(max-width: 922px){
+    .containerroom{
+        background-color: #ffffff;
+        width: 100%;
+        height: 850px;
+        display: flex;
+        overflow: hidden;
+        flex-direction:column-reverse
+        /* flex-wrap: wrap ; */
+        /* justify-content:left; */
+    
+    }
+    .containerroom2{
+      background-color: #ffffff;
+      width: 100%;
+      height: 850px;
+      display: flex;
+      overflow: hidden;
+      flex-direction:column-reverse
+      /* flex-wrap: wrap ; */
+      /* justify-content:left; */
+  
+  }
+    
+    .imgroom{
+      margin-top: 2px;
+        padding-left: 20%;
+        padding-right: 20%;
+        width: 100%;
+        height: 70%;
+        min-height: 400px;
+        min-width: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .txtroom{
+        padding-left: 20%;
+        padding-right: 20%;
+        height: auto;
+        width: 100%;
+        min-width: 530px;
+        min-height: 450px;
+        /* max-width: 450px; */
+        color: #6b6b6b;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+}
+
+@media(min-width: 922px){
+  .imgroom{
+    top: 2px;
+  }
+}
+
+/* Facilities & Service */
+.FS{
+  top: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.FSButton{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  justify-content: center;
+  text-align: center;
+}
+.FSButton Button{
+  top: 10px;
+  background-color: #ffffff;
+  width: 110px;
+  height: 40px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(100, 98, 98);
+}
+
+.containerf {
+  background-color: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: row;
+    flex-wrap: wrap ;
+    justify-content: center;
+    /* border-bottom: 0.8px solid rgb(126, 123, 123); */
+    
+}
+.box{
+  background-color: rgb(255, 255, 255);
+  width: 300px;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.box img{
+  height: 80px;
+  width: 80px;
+}
+.box p{
+  padding: 50px;
+  color: #000;
+  font-size: 14px;
+}
+
